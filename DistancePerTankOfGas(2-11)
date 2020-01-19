@@ -1,0 +1,34 @@
+/*
+C++
+Levi McCann
+01/19/2020
+CIS 61 Hendrickson
+Distance Per Tank Of Gas (2-11)
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+// declare constants and variables
+const int NUMGALLONS = 20;
+float inTownMPG = 23.5;
+float hwyMPG = 28.9;
+float inTownDistance = NUMGALLONS * inTownMPG;
+float outTownDistance = NUMGALLONS * hwyMPG;
+
+
+cout <<endl;
+cout <<"The distance the car can travel \n ";
+cout <<"in town is : " <<inTownDistance ;
+
+cout <<endl;
+
+cout <<"The distance the car can travel \n ";
+cout <<"out of town is : " << outTownDistance ;
+//cout <<
+cout <<endl;
+return 0;
+ // std::cout << "Hello World!\n";
+}
