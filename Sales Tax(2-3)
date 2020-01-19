@@ -1,0 +1,29 @@
+/*
+C++
+Levi McCann
+01/19/2020
+CIS 61 C++
+Sales Tax(PC2-3)
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+  //Constant vartiables
+  const double STATETAX = .065; //State Tax
+  const double COUNTYTAX = .02; //County Tax
+
+  //vartiables
+  double purchases = 95,
+         total;
+
+// Calculate
+  total = ((purchases * STATETAX) + (purchases * COUNTYTAX));
+
+//Display total sales Tax
+
+  cout << "The total Sales Tax on a $95 putchase is: " << total << endl;
+
+
+  std::cout << "Hello World!\n";
+}
