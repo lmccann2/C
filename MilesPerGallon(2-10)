@@ -1,0 +1,33 @@
+/*
+C++
+Levi McCann
+01/19/2020
+Miles Per Gallon (2-10)
+Hendrickson
+
+*/
+#include <iostream>
+using namespace std;
+
+
+int main() {
+  // variables
+  float numGallons,
+        numMiles,
+        mpg;
+
+  // Ask user for number of gallons car can hold
+  cout <<"\nEnter the number of Gallons the car can hold: ";
+  cin >> numGallons;
+  cout <<"\nEnter the number of miles the car can \n";
+  cout << "drive on a tank of gas: " ;
+  cin >> numMiles;
+
+  //Calculate Mile Per Gallon and display to console
+  mpg = numMiles / numGallons;
+  cout << "The car gets " << mpg << " miles per gallon. " <<endl ;
+
+
+  return 0;
+  //std::cout << "Hello World!\n";
+}
